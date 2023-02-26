@@ -1,0 +1,44 @@
+
+.App-logo{
+    width: 300px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+ul{
+    display: flex;
+    margin-left: 50px;
+}
+
+ul p{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 25px;
+}
+
+ul p a{
+    text-decoration: none;
+    color: black;
+}
+
+ul p a :hover{
+    color: red;
+}
+
+
+
+#home{
+    background-image: url('./counter.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
