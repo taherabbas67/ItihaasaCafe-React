@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import logo from './IMG_9902.png';
+import menu from './menu.png';
 import './header.css';
 
 export default function header(){
@@ -15,6 +16,7 @@ export default function header(){
                 <p><a href='home'>Contact</a></p>
                 
             </ul>
+            <img src={menu} id="hamburger" alt="img" />
         </div>
         <></>
         <div id="home"></div>

@@ -42,3 +42,19 @@ ul p a :hover{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#hamburger{
+    width: 35px;
+    height: auto;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px){
+    ul{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+    }
+}
